@@ -46,7 +46,8 @@ function equalTo(){
         result.toFixed(2)
         inputvalue.innerHTML = result
    }
-   else{
-    inputvalue.innerHTML= "Please Select operator"
+   else if(inputvalue.innerHTML !== "" || arithmaticoperator === ""){
+     
+        inputvalue.innerHTML= inputvalue.innerHTML;
    }
 }
