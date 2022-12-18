@@ -1,0 +1,52 @@
+.container-fluid{
+    margin-top: 4rem;
+    padding: 20px;
+    width: 350px;
+    padding-top: 30px;
+    background-color: #E6E2C3
+}
+
+.col{
+    margin: 1px;
+    margin: 10px 10px 10px 10px;
+    color: #439A97;
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.calculator_input{
+    height: 5rem;
+    background-color: white;
+    width: 100%;
+    
+}
+.col:hover{
+    transform: scale(1.1);
+    background-color: #E8C4C4;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn{
+    color: #439A97;
+    font-size: 1.5rem;
+    border: 2px solid;
+    width: 80%;
+}
+#id{
+    font-size: 1.5rem;
+}
+#calc_input_div{
+    height: 1rem;
+    text-align: right;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 1.2rem;
+}
+#inputEl{
+    text-align: right;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #7D8F69;
+    font-size: 1.5rem;
+}
